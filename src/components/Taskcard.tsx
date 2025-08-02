@@ -1,7 +1,5 @@
 import type {TaskCardProps} from "../libs/types"
 export function Taskcard(props:TaskCardProps){
-    const id:number = props.id;
-    const isdone:boolean = props.isDone;
     return(
     <div className="card mb-3">
               <div className="card-body">
